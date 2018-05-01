@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'chmod 777 gradlew'
-        sh 'gradle build'
+        sh '/home/gradle-4.7/bin/gradle build'
       }
     }
   }
