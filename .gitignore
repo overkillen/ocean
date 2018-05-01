@@ -48,7 +48,6 @@ tomcat
 *.class
 
 .gradle*
-gradle
 # Maven 
 target/
 
